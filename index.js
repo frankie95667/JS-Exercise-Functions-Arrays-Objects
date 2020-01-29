@@ -187,7 +187,7 @@ function getCarInfoById(/* code here */inventory, id) {
   /* code here */
   let i = 0;
   while (i < inventory.length) {
-    if(inventory[i].id == id) {
+    if(inventory[i].id === id) {
       return `This is a ${inventory[i].car_make} ${inventory[i].car_model}`
     }
   }
